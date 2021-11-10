@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concours de pêche</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="https://i.goopics.net/6m3x7w.png">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+	<script src="js/script.js"></script>
+    <nav class="navbar navbar-expand-lg  navbar-light">
+        <a class="navbar-brand" href="index.html"><img onmouseenter="img1()" onmouseleave="img2()" src="img/logo1.png"
+                id="logo_img" class="mx-auto img-fluid" width="200" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+                <p style="font-size: 35px;">|</p>
+                <a class="nav-link" href="#">Présentation</a>
+                <p style="font-size: 35px;">|</p>
+                <a class="nav-link" href="#">Action</a>
+                <p style="font-size: 35px;">|</p>
+                <div class="rs">
+                    <a class="nav-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Concours de pêche au leurre</h1>
+        <!--tablaux de detail de levenement a suivre -->
+        <table class="table table-dark table-bordered table-responsive mx-auto mt-5">
+            <tr>
+                <th>Détails</th>
+                <th>Date</th>
+                <th>Heure</th>
+                <th>Catégorie</th>
+                <th>Matériel</th>
+                <th>Organisateur</th>
+                <th rowspan="2"><img src="img/poisson.png" width="150px" alt="poisson"></th>
+            </tr>
+            <tr>
+                <td>Pêche multi espèces ouverte à tous ! <br> Les règles seront expliquées sur place <br> Apéritif et
+                    barbecue à 12h </td>
+                <td>22 décembre 2022</td>
+                <td>7:30</td>
+                <td>Pêche au leurre</td>
+                <td>Une canne par personne <br> 5 leurres au choix</td>
+                <td>TheFisherWild <br> Décathlon <br> Fishing Planet</td>
+            </tr>
+        </table>
+        <div class="addr">
+            <ul>
+                <li>Lieu : Base nautique d'Artignosc (83)</li>
+                <li>Adresse : Route de Saint Laurent, Chemin de l'Éouvière, 83630 Artignosc-sur-Verdon</li>
+            </ul>
+        </div>
+        <div class="carte embed-responsive embed-responsive-16by9"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8156.024837797835!2d6.091095749748317!3d43.71906403000389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cbe0caf0f23e77%3A0x1f332df7ebf1e31b!2sBase%20Nautique%20d%C2%B4Artignosc!5e0!3m2!1sfr!2sfr!4v1635990087133!5m2!1sfr!2sfr"
+                width="800" height="300"
+                style="border: 0px; --darkreader-inline-border-top: initial; --darkreader-inline-border-right: initial; --darkreader-inline-border-bottom: initial; --darkreader-inline-border-left: initial;"
+                allowfullscreen="" loading="lazy"></iframe></div>
+        <div class="space2"></div>
+    </div>
+    <footer>
+        <div class="footer_content">
+            <a href="tel:0623889842"><i class="fa fa-phone" aria-hidden="true"> 0623889842</i></a>
+			<div class="sep"></div>
+            <a href="https://www.openstreetmap.org/node/2201795696#map=19/48.88060/2.29013"><i class="fa fa-map"
+                    aria-hidden="true"> 17 rue Guersant 75017 Paris</i></a>
+        </div>
+    </footer>
+</body>
+
+</html>

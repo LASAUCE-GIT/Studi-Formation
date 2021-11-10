@@ -1,0 +1,148 @@
+html,
+body {
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #163535;
+    margin: 0 auto;
+    font-size: 30px;
+    opacity: 0.7;
+    position: fixed;
+}
+
+nav a {
+    color: #85C5F7 !important;
+}
+
+nav a:hover {
+    color: #3896df !important;
+    text-decoration: underline !important;
+}
+
+body {
+    background-image: url(img/nature.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px !important;
+    color: #85C5F7;
+}
+
+.rs {
+    display: flex;
+}
+
+.rs a i {
+	padding: 5px;
+}
+
+#navbarNavAltMarkup {
+    margin-left: 25%;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #163535;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #3896df;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: #3896df;
+}
+
+.concours button {
+    background-color: #089986;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: #033255;
+}
+
+.concours button:hover {
+    background-color: #077a4e;
+}
+
+.fisherwild {
+    display: flex;
+    background-color: white;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    color: #3896df;
+}
+
+.space {
+    margin-bottom: 150px;
+}
+
+.space2 {
+    margin-bottom: 50px;
+}
+
+.fisherwild .text {
+    margin-top: 30px;
+}
+
+.fisherwild .text p {
+    padding: 15px;
+    text-align: justify;
+}
+
+.fisherwild p {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.container table {
+    background-color: white;
+    color: blue;
+}
+
+.addr {
+    color: #3896df;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.addr ul li {
+    list-style-type: none;
+}
+
+.concours {
+    margin-top: 30px;
+}
+
+.navbar-toggler-icon {
+	background-color: lightblue !important;
+	border-radius: 7px;
+}
+
+.sep {
+	width: 30px;
+}

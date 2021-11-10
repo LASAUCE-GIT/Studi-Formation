@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head> <!--meta pour donner des infos sur le navigateur, la police, l'écran./ link ver style.css / css bootstrap /fontawesome pour icone reseaux sociaux / icon onglet-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheFisherWild</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/png" href="https://i.goopics.net/6m3x7w.png">
+</head>
+
+<body>
+    <!--SCRIPT / les trois premiers, c'est pour bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <!--c'est le script personnalisé dans le dossier js 
+    vu que j'ai mis un .png pour le logo au lieu d'un .svg, on pouvait pas changer la couleur comme ça, 
+    donc j'ai mis deux images et j'ai fait en sorte de pouvoir switcher entre les deux quand la souris passe dessus-->
+	<script src="js/script.js"></script>
+    <!--NAVBAR / bootstrap responsive hamburger --> 
+    <nav class="navbar navbar-expand-lg  navbar-light">
+        <a class="navbar-brand" href="index.html"><img onmouseenter="img1()" onmouseleave="img2()" src="img/logo1.png"
+                id="logo_img" class="mx-auto img-fluid" width="200" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Accueil<span class="sr-only">(current)</span></a>
+                <p style="font-size: 35px;">|</p>
+                <a class="nav-link" href="#">Présentation</a>
+                <p style="font-size: 35px;">|</p>
+                <a class="nav-link" href="#">Action</a>
+                <p style="font-size: 35px;">|</p>
+                <div class="rs">
+                    <a class="nav-link" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- contenaire button titre paragraphe bootstrap pour le responsive toujours -->
+    <div class="container">
+        <h1>Bienvenue sur la première plateforme
+            associative de pêche responsable</h1>
+        <div class="concours">
+            <h2>Participez à notre concours de pêche local et ouvert à tous !</h2>
+            <button class="btn" onclick="location.href = 'participation.html'">Je participe</button>
+        </div>
+        <div class="fisherwild">
+            <img src="img/poisson.png" width="350" class="img_fluid mx-auto" alt="poisson">
+            <div class="text">
+                <h3>#TheFisherWild</h3>
+                <p>Située dans le sud de la France, dans le département des Alpes-de-Haute-Provence, l’Association
+                    Agréée
+                    pour la Pêche et de Protection du Milieu Aquatique offre un domaine de pêche étendu sur un vaste
+                    territoire de lacs et rivières. La truite fario méditerranéenne est la reine de ce domaine d’eaux
+                    vives,
+                    alors que brochets, perches et poissons blancs abondent dans les lacs. Entre gorges et collines,
+                    entre
+                    iscles et vallées, vous vous apercevrez vite que la Provence est une terre de pêche insoupçonnée.
+                </p>
+            </div>
+        </div>
+        <div class="space"></div>
+    </div>
+    <!--bas de page responsive class boostrap telephone est adresse-->
+    <footer>
+        <div class="footer_content">
+            <a href="tel:0623889842"><i class="fa fa-phone" aria-hidden="true"> 0623889842</i></a>
+			<div class="sep"></div>
+            <a href="https://www.openstreetmap.org/node/2201795696#map=19/48.88060/2.29013"><i class="fa fa-map"
+                    aria-hidden="true"> 17 rue Guersant 75017 Paris</i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
